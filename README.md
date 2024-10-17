@@ -17,6 +17,7 @@ Steps presented below:
 4.	(Optional) Deploy via SCCM/Intune
 5.	Troubleshooting
 
+
 1. First, we need to obtain the “Language and Optional Features for Windows 11, version 22H2” iso, note that the version will change but the steps should stay the same. To get this, visit my.visualstudio.com, click “downloads”, click “windows 11”, and scroll down—or just search. Download the iso. It winds up around 7 gigs, eww. I believe you can also get it from VLSC, but that’s not where I got it.
 
 Many online instructions will tell you to mount this iso---which you certainly can, I personally prefer to extract with 7-zip or similar app. You’ll wind up with 2 folders, “LanguageAndOptionalFeatures” and “Windows Preinstallation Environment”. Obviously, you need the former.
