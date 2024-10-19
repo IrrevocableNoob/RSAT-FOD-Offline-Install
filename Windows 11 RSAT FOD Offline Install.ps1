@@ -19,6 +19,6 @@ $RSAT_FoD = Get-WindowsCapability -Name RSAT.* -Online -Source $FoD_Source
 #Install RSAT Tools
 Foreach ($RSAT_FoD_Item in $RSAT_FoD)
 {
-Add-WindowsCapability -Online -Name $RSAT_FoD_Item.name -Source $FodSource -LimitAccess
+Add-WindowsCapability -Online -Name $RSAT_FoD_Item.name -Source $FoD_Source -LimitAccess
 }
 
