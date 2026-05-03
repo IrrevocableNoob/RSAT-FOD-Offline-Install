@@ -1,6 +1,7 @@
 # RSAT-FOD-Offline-Install
 Enterprise solution to install RSAT Offline without needing access to windows update
 
+Edit 5/3/2026 Merged with https://github.com/IrrevocableNoob/RSAT-FOD-Offline-Install/commit/d880db45e7ead287a17b2eed015317f0288c8f72 to address the parenthesis issue. 
 
 Like many companies, we were struggling to deploy RSAT tools on Windows 11. We had it working fine, modifying two registry entries and running the standard script to reach out to Windows Update for the packages, provided separately in case this works in your environment.
 
