@@ -49,7 +49,7 @@ foreach ($file in $additionalFiles) {
     $filePath = Join-Path -Path $sourceFolder -ChildPath $file
     if (Test-Path -Path $filePath) {
         Copy-Item -Path $filePath -Destination $destinationFolder
-        Write-Host "Copied: $(file)"
+        Write-Host "Copied: $($file)"
     } else {
         Write-Host "File $file not found in $sourceFolder"
     }
